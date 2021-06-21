@@ -1,4 +1,4 @@
-package B2442;
+package B2443;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		for(int i=1; i<=n; i++){
+		for(int i=n; i>=1; i--){
 			for(int k=n-i-1; k>=0; k--) {
 				System.out.print(" ");
 			}
